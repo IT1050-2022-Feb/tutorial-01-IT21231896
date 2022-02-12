@@ -5,6 +5,19 @@
 #include <stdio.h>
 
 int main() {
+
+  int mark1 , mark2 ;
+  float avg ;
+
+  printf( "Enter the mark of 1st sybject : ");
+  scanf( "%d", &mark1 );
+
+  printf( "Enter the mark of 2nd sunject : ");
+  scanf( "%d", &mark2 );
+
+  avg = (mark1 + mark2) / 2.0 ;
+
+  printf( "Average of the two mark is : %.2f ", avg );
   
   return 0;
 }
